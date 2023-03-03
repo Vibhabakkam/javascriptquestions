@@ -10,6 +10,28 @@ var number = 6;
 // } else{
 //     console.log("false")
 // }
+// var flag = flag;
+// for (var i= 0; i < array.length; i++){
+//    if (array[i] === number){
+//     flag = true;
+//    }
+   
+     
+// }
+// if (flag === true){
+//     console.log("true")
+// }
+// else{
+//     console.log("false")
+// }
+
+
+// Q find out number 689  from given array
+ // then print only " got it "  and if not found then print " not found " 
+
+var array = [2,4,6,23,56,3224,454,23,54,56,232,689,233];
+var number = 689;
+
 var flag = flag;
 for (var i= 0; i < array.length; i++){
    if (array[i] === number){
@@ -19,9 +41,10 @@ for (var i= 0; i < array.length; i++){
      
 }
 if (flag === true){
-    console.log("true")
+    console.log(" got it")
 }
 else{
-    console.log("false")
+    console.log("not found")
 }
+
 
